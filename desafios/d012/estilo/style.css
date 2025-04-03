@@ -11,7 +11,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte2)
+
 }
 
 html, body {
@@ -26,6 +26,7 @@ header {
     text-align: center;
     font-family: var(--fonte1);
     font-weight: 800;
+    
 }
 
 header > h1 {
@@ -52,6 +53,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    
 }
 
 section.normal {
