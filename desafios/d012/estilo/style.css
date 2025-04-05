@@ -26,11 +26,14 @@ header {
     text-align: center;
     font-family: var(--fonte1);
     font-weight: 800;
+    font-size: 2em;
+    
     
 }
 
 header > h1 {
     padding-top: 50px;
+    
     
 }
 
@@ -54,6 +57,9 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
+    font-size: 1.2em;
+    
+    
     
 }
 
@@ -63,14 +69,38 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(44, 43, 43);
+    background-color: rgba(0, 0, 0, 0.616);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.801);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
+section#img1 {
+    background-image: url(../imagens/Alee.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+
+    
+}
+
+section#img2 {
+    background-image: url(../imagens/alee-cardi-b.jpg);
+    background-position: center center;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
 section.imagem > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.253)
+    display: inline-block;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-shadow: 2px 2px 0px black;
+    padding: 10px;
 
 }
 
